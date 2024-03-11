@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+}
+
+.create__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  15px;
+    border-bottom: 2px solid #111111;
+}
+
+.create__title {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.create__btn {
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px dotted green;
+    background-color: transparent;
+    transition: 0.35s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create__btn:hover {
+    transform: translateY(-10px);
+}
+
+.projects__container {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+
+}
